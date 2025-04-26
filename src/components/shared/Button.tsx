@@ -24,7 +24,9 @@ export default function Button(props: ButtonProps) {
         hover:scale-105 
         hover:before:translate-x-[0%]
         hover:before:translate-y-[0%]
-        active:scale-95`}
+        active:scale-95
+        hover:opacity-90
+        `}
     >
       {props.withIcon}
       <span>{props.text}</span>
