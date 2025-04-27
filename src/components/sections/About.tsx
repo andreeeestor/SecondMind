@@ -30,7 +30,7 @@ export default function About(props: AboutProps) {
       </h6>
       <Button
         text="Comece agora"
-        className="border-[#03a9f4] bg-[#03a9f4] hover:text-white before:bg-[#03a9f4]"
+        className="border-[#03a9f4] bg-[#03a9f4] hover:text-white before:bg-[#03a9f4] text-white"
       />
       <div className="w-full mt-4">
         <ImageCarousel

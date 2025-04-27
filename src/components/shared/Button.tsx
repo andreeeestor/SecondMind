@@ -12,7 +12,7 @@ export default function Button(props: ButtonProps) {
       cursor-pointer
         relative z-0 flex items-center gap-2 overflow-hidden rounded-full border-[2px] 
          ${props.className} px-4 py-2 font-semibold
-         text-white transition-all duration-500
+          transition-all duration-500
         
         before:absolute before:inset-0
         before:-z-10 before:translate-x-[150%]
@@ -28,8 +28,8 @@ export default function Button(props: ButtonProps) {
         hover:opacity-90
         `}
     >
-      {props.withIcon}
       <span>{props.text}</span>
+      {props.withIcon}
     </button>
   );
 }

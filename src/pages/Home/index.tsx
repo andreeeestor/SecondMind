@@ -1,7 +1,11 @@
 import Waves from "../../components/animations/Waves";
+import Footer from "../../components/layout/Footer";
 import Header from "../../components/layout/Header";
 import MainContainer from "../../components/layout/MainContainer";
 import About from "../../components/sections/About";
+import Contact from "../../components/sections/Contact";
+import News from "../../components/sections/News";
+import Clients from "../../components/sections/OurClients";
 import Resources from "../../components/sections/Resources";
 import Services from "../../components/sections/Services";
 import Testimonials from "../../components/sections/Testimonials";
@@ -39,11 +43,11 @@ export default function HomePage() {
             <div className="flex md:flex-row flex-col items-center gap-6">
               <Button
                 text="Precificador de Projetos"
-                className="border-[#03a9f4] bg-[#03a9f4] hover:text-white before:bg-[#03a9f4] md:w-auto w-full"
+                className="border-[#03a9f4] bg-[#03a9f4] text-white hover:text-white before:bg-[#03a9f4] md:w-auto w-full"
               />
               <Button
                 text="Saiba Mais"
-                className="hover:text-black before:bg-white md:w-auto w-full"
+                className="hover:text-black before:bg-white md:w-auto w-full text-white"
               />
             </div>
           </div>
@@ -57,7 +61,14 @@ export default function HomePage() {
         <div className="md:h-20 h-6" />
         <Services />
         <div className="md:h-20 h-6" />
+        <Clients />
+        <div className="md:h-20 h-6" />
+        <News />
+        <div className="md:h-20 h-6" />
+        <Contact />
       </MainContainer>
+      <div className="md:h-20 h-6" />
+      <Footer />
     </>
   );
 }
