@@ -14,7 +14,7 @@ export default function Testimonials() {
       </h4>
       <div className="flex flex-wrap -m-4">
         <div className="p-4 md:w-1/2 w-full">
-          <div className="h-full bg-white border-[1px] border-slate-300 p-8 rounded-md shadow-md">
+          <div className="h-full bg-white border-[1px] border-slate-300 transition-all hover:shadow-lg p-8 rounded-md shadow-md">
             <Quotes color="#03a9f4" weight="fill" size={32} className="mb-4" />
             <p className="leading-relaxed mb-6">
               A Second Mind foi uma excelente parceria da Brain no processo de
@@ -44,7 +44,7 @@ export default function Testimonials() {
           </div>
         </div>
         <div className="p-4 md:w-1/2 w-full">
-          <div className="h-full bg-white border-[1px] border-slate-300 p-8 rounded-md shadow-md">
+          <div className="h-full bg-white border-[1px] border-slate-300 transition-all hover:shadow-lg p-8 rounded-md shadow-md">
           <Quotes color="#03a9f4" weight="fill" size={32} className="mb-4" />
             <p className="leading-relaxed mb-6">
               Mais que uma fábrica de Software a Second Mind é uma parceira de
@@ -73,7 +73,7 @@ export default function Testimonials() {
         </div>
 
         <div className="p-4 md:w-1/2 w-full">
-          <div className="h-full bg-white border-[1px] border-slate-300 p-8 rounded-md shadow-md">
+          <div className="h-full bg-white border-[1px] border-slate-300 transition-all hover:shadow-lg p-8 rounded-md shadow-md">
           <Quotes color="#03a9f4" weight="fill" size={32} className="mb-4" />
             <p className="leading-relaxed mb-6">
               Equipe nota 10, elaborou o sistema de gestão conforme a
