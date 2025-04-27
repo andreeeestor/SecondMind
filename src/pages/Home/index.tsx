@@ -1,6 +1,10 @@
 import Waves from "../../components/animations/Waves";
 import Header from "../../components/layout/Header";
 import MainContainer from "../../components/layout/MainContainer";
+import About from "../../components/sections/About";
+import Resources from "../../components/sections/Resources";
+import Services from "../../components/sections/Services";
+import Testimonials from "../../components/sections/Testimonials";
 import Button from "../../components/shared/Button";
 
 export default function HomePage() {
@@ -44,6 +48,15 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+        <div className="md:h-20 h-6" />
+        <About />
+        <div className="md:h-20 h-6" />
+        <Resources />
+        <div className="md:h-20 h-6" />
+        <Testimonials />
+        <div className="md:h-20 h-6" />
+        <Services />
+        <div className="md:h-20 h-6" />
       </MainContainer>
     </>
   );
