@@ -25,7 +25,7 @@ export default function Services(props: ServicesProps) {
               Adquira insights valiosos de suas tendências de mercado,
               transformando suas informações em dados.
             </p>
-            <a className="mt-3 text-blue-500 inline-flex items-center transition-all hover:opacity-90 hover:underline cursor-pointer">
+            <a className="mt-3 text-sky-500 inline-flex items-center transition-all hover:opacity-90 hover:underline cursor-pointer">
               Leia Mais
               <ArrowUpRight className="size-4 ml-2" />
             </a>
@@ -41,7 +41,7 @@ export default function Services(props: ServicesProps) {
               Tenha softwares sob medida para seus processos, aumentando a
               produtividade do seu negócio.
             </p>
-            <a className="mt-3 text-blue-500 inline-flex items-center transition-all hover:opacity-90 hover:underline cursor-pointer">
+            <a className="mt-3 text-sky-500 inline-flex items-center transition-all hover:opacity-90 hover:underline cursor-pointer">
               Leia Mais
               <ArrowUpRight className="size-4 ml-2" />
             </a>
@@ -63,7 +63,7 @@ export default function Services(props: ServicesProps) {
               Se sua empresa necessita de um aplicativo para ampliar seu mercado
               ou para tratar melhor seus processos.
             </p>
-            <a className="mt-3 text-blue-500 inline-flex items-center transition-all hover:opacity-90 hover:underline cursor-pointer">
+            <a className="mt-3 text-sky-500 inline-flex items-center transition-all hover:opacity-90 hover:underline cursor-pointer">
               Leia Mais
               <ArrowUpRight className="size-4 ml-2" />
             </a>
@@ -78,7 +78,7 @@ export default function Services(props: ServicesProps) {
             <p className="leading-relaxed text-gray-400">
             Leia dados de outras aplicações, disponibilize seus dados para parceiros, conecte diferentes áreas da sua empresa.
             </p>
-            <a className="mt-3 text-blue-500 inline-flex items-center transition-all hover:opacity-90 hover:underline cursor-pointer">
+            <a className="mt-3 text-sky-500 inline-flex items-center transition-all hover:opacity-90 hover:underline cursor-pointer">
               Leia Mais
               <ArrowUpRight className="size-4 ml-2" />
             </a>
@@ -99,7 +99,7 @@ export default function Services(props: ServicesProps) {
             <p className="leading-relaxed text-gray-400">
             Dashboards e repots possibilitando acesso direto aos seus dados mais importantes.
             </p>
-            <a className="mt-3 text-blue-500 inline-flex items-center transition-all hover:opacity-90 hover:underline cursor-pointer">
+            <a className="mt-3 text-sky-500 inline-flex items-center transition-all hover:opacity-90 hover:underline cursor-pointer">
               Leia Mais
               <ArrowUpRight className="size-4 ml-2" />
             </a>
@@ -114,7 +114,7 @@ export default function Services(props: ServicesProps) {
             <p className="leading-relaxed text-gray-400">
             Integre seus sistemas e serviços de forma transparente e funcional.
             </p>
-            <a className="mt-3 text-blue-500 inline-flex items-center transition-all hover:opacity-90 hover:underline cursor-pointer">
+            <a className="mt-3 text-sky-500 inline-flex items-center transition-all hover:opacity-90 hover:underline cursor-pointer">
               Leia Mais
               <ArrowUpRight className="size-4 ml-2" />
             </a>

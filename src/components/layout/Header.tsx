@@ -48,7 +48,7 @@ export default function Header() {
       
       <nav className="w-full md:w-auto">
         <ul className="list-none uppercase hidden md:flex gap-x-6 transition-all items-center">
-          <li className="cursor-pointer hover:text-indigo-600 transition-colors py-1">
+          <li className="cursor-pointer hover:text-sky-600 transition-colors py-1">
             Início
           </li>
           <NavDropdown 
@@ -56,10 +56,10 @@ export default function Header() {
             items={sobreItems} 
             icon={<CaretDown className="text-xs" />} 
           />
-          <li className="cursor-pointer hover:text-indigo-600 transition-colors py-1">
+          <li className="cursor-pointer hover:text-sky-600 transition-colors py-1">
             Outsourcing
           </li>
-          <li className="cursor-pointer hover:text-indigo-600 transition-colors py-1">
+          <li className="cursor-pointer hover:text-sky-600 transition-colors py-1">
             Produtos
           </li>
           <NavDropdown 
@@ -67,10 +67,10 @@ export default function Header() {
             items={servicosItems} 
             icon={<CaretDown className="text-xs" />} 
           />
-          <li className="cursor-pointer hover:text-indigo-600 transition-colors py-1">
+          <li className="cursor-pointer hover:text-sky-600 transition-colors py-1">
             Clientes
           </li>
-          <li className="cursor-pointer hover:text-indigo-600 transition-colors py-1">
+          <li className="cursor-pointer hover:text-sky-600 transition-colors py-1">
             News
           </li>
           <NavDropdown 

@@ -35,7 +35,7 @@ export default function NavDropdown({ title, items, icon }: NavDropdownProps) {
           {items.map((item, index) => (
             <li 
               key={index}
-              className="px-4 py-2 text-xs hover:bg-indigo-100 hover:text-indigo-600 transition-colors whitespace-nowrap"
+              className="px-4 py-2 text-xs hover:bg-sky-100 hover:text-sky-600 transition-colors whitespace-nowrap"
             >
               {item}
             </li>
