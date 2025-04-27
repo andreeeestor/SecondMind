@@ -8,7 +8,7 @@ export default function Resources(props: ResourcesProps) {
   return (
     <section
       id={props.id}
-      className="flex flex-col items-center space-y-4 bg-white absolute w-full py-10"
+      className="flex flex-col items-center space-y-4 py-10"
     >
       <h1 className="text-3xl font-medium leading-12 md:text-4xl">Recursos</h1>
       <h4 className="text-gray-600 text-lg text-center">

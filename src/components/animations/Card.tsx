@@ -9,7 +9,7 @@ interface CardType {
 const Card = ({ title, subtitle, Icon }: CardType) => {
   return (
     <div
-      className="w-full p-4 rounded-md border-[1px] border-slate-300 relative overflow-hidden group bg-white"
+      className="w-full p-4 rounded-md border-[1px] border-slate-300 relative overflow-hidden group bg-white shadow-md"
     >
       <div className="absolute inset-0 bg-gradient-to-r from-[#FF9800] to-orange-400 translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300" />
 
