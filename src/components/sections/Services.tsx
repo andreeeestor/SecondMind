@@ -14,7 +14,6 @@ interface ServicesProps {
 export default function Services(props: ServicesProps) {
   return (
     <section id={props.id}>
-      <div className="py-24">
         <div className="flex items-center border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-[#03a9f4] flex-shrink-0">
             <Database className="sm:w-16 sm:h-16 w-10 h-10" color="white" />
@@ -106,7 +105,7 @@ export default function Services(props: ServicesProps) {
           </div>
         </div>
 
-        <div className="flex items-center border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div className="flex items-center border-b pb-10 border-gray-200 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className=" text-lg title-font font-semibold mb-2">
             Integração de Sistemas
@@ -123,7 +122,6 @@ export default function Services(props: ServicesProps) {
             <Link className="sm:w-16 sm:h-16 w-10 h-10" color="white" />
           </div>
         </div>
-      </div>
     </section>
   );
 }
