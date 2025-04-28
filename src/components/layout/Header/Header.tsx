@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { List, CaretDown, X } from "@phosphor-icons/react";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../../assets/images/logo.png";
 import NavDropdown from "./NavDropdown";
 import MobileDropdown from "./MobileDropdown";
 

@@ -1,6 +1,7 @@
 import Waves from "../../components/animations/Waves";
 import Footer from "../../components/layout/Footer";
-import Header from "../../components/layout/Header";
+import Header from "../../components/layout/Header/Header";
+
 import MainContainer from "../../components/layout/MainContainer";
 import About from "../../components/sections/About";
 import Contact from "../../components/sections/Contact";
