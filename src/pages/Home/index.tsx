@@ -6,6 +6,7 @@ import About from "../../components/sections/About";
 import Contact from "../../components/sections/Contact";
 import News from "../../components/sections/News";
 import Clients from "../../components/sections/OurClients";
+import Products from "../../components/sections/Products";
 import Resources from "../../components/sections/Resources";
 import Services from "../../components/sections/Services";
 import Testimonials from "../../components/sections/Testimonials";
@@ -62,6 +63,8 @@ export default function HomePage() {
         <Services />
         <div className="md:h-20 h-6" />
         <Clients />
+        <div className="md:h-20 h-6" />
+        <Products />
         <div className="md:h-20 h-6" />
         <News />
         <div className="md:h-20 h-6" />
