@@ -7,28 +7,29 @@ import Products from "../../components/sections/Products";
 import Resources from "../../components/sections/Resources";
 import Services from "../../components/sections/Services";
 import Testimonials from "../../components/sections/Testimonials";
+import Spacer from "../../components/shared/Spacer";
 
 export default function HomePage() {
   return (
     <>
       <Hero />
-      <div className="md:h-20 h-6" />
+        <Spacer />
       <About />
-      <div className="md:h-20 h-6" />
+        <Spacer />
       <Resources />
-      <div className="md:h-20 h-6" />
+        <Spacer />
       <Testimonials />
-      <div className="md:h-20 h-6" />
+        <Spacer />
       <Services />
-      <div className="md:h-20 h-6" />
+        <Spacer />
       <Clients />
-      <div className="md:h-20 h-6" />
+        <Spacer />
       <Products />
-      <div className="md:h-20 h-6" />
+        <Spacer />
       <News />
-      <div className="md:h-20 h-6" />
+        <Spacer />
       <Contact />
-      <div className="md:h-20 h-6" />
+        <Spacer />
     </>
   );
 }
