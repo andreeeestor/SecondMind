@@ -1,8 +1,8 @@
 import { useEffect, useState, useRef, JSX } from "react";
 import { motion, PanInfo, useMotionValue } from "framer-motion";
-import img1 from "../../assets/images/blur-close-up-code-546819.jpg";
-import img2 from "../../assets/images/apple-black-and-white-camera-6482.jpg";
-import img3 from "../../assets/images/analyst-analytics-blur-106344.jpg";
+import img1 from "../../assets/images/carousel/blur-close-up-code-546819.jpg";
+import img2 from "../../assets/images/carousel/apple-black-and-white-camera-6482.jpg";
+import img3 from "../../assets/images/carousel/analyst-analytics-blur-106344.jpg";
 
 export interface CarouselItem {
   image: string;
