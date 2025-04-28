@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import FuzzyText from "../../components/layout/NotFoundTitle";
+import { ArrowLeft } from "@phosphor-icons/react";
 
 export default function NotFoundPage() {
   return (
@@ -18,9 +19,10 @@ export default function NotFoundPage() {
           </p>
           <Link
             to="/"
-            className="inline-flex text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center my-4"
+            className=" flex items-center justify-center gap-x-2 font-semibold"
           >
-            Back to Homepage
+            <ArrowLeft />
+            Voltar
           </Link>
         </div>
       </div>
