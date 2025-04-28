@@ -1,4 +1,4 @@
-import NewsCard from "../shared/NewsCard"
+import NewsCard from "../cards/NewsCard"
 import n1 from "../../assets/images/news/pexels-tima-miroshnichenko-5380664-1024x683.jpg"
 import n2 from "../../assets/images/news/pexels-sora-shimazaki-5935791-1024x1536.jpg"
 import n3 from "../../assets/images/news/pexels-jakub-zerdzicki-19331241-1024x606.jpg"
