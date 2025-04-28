@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 
-interface FuzzyTextProps {
+interface NotFoundTitleProps {
   children: React.ReactNode;
   fontSize?: number | string;
   fontWeight?: string | number;
@@ -11,7 +11,7 @@ interface FuzzyTextProps {
   hoverIntensity?: number;
 }
 
-const FuzzyText: React.FC<FuzzyTextProps> = ({
+const NotFoundTitle: React.FC<NotFoundTitleProps> = ({
   children,
   fontSize = "clamp(2rem, 8vw, 8rem)",
   fontWeight = 900,
@@ -21,7 +21,7 @@ const FuzzyText: React.FC<FuzzyTextProps> = ({
   baseIntensity = 0.18,
   hoverIntensity = 0.5,
 }) => {
-  const canvasRef = useRef<HTMLCanvasElement & { cleanupFuzzyText?: () => void}>(null);
+  const canvasRef = useRef<HTMLCanvasElement & { cleanupNotFoundTitle?: () => void}>(null);
 
   useEffect(() => {
     let animationFrameId: number;
@@ -181,7 +181,7 @@ const FuzzyText: React.FC<FuzzyTextProps> = ({
         }
       };
 
-      canvas.cleanupFuzzyText = cleanup;
+      canvas.cleanupNotFoundTitle = cleanup;
     };
 
     init();
@@ -189,8 +189,8 @@ const FuzzyText: React.FC<FuzzyTextProps> = ({
     return () => {
       isCancelled = true;
       window.cancelAnimationFrame(animationFrameId);
-      if (canvas && canvas.cleanupFuzzyText) {
-        canvas.cleanupFuzzyText();
+      if (canvas && canvas.cleanupNotFoundTitle) {
+        canvas.cleanupNotFoundTitle();
       }
     };
   }, [
@@ -207,4 +207,4 @@ const FuzzyText: React.FC<FuzzyTextProps> = ({
   return <canvas ref={canvasRef} />;
 };
 
-export default FuzzyText;
+export default NotFoundTitle;

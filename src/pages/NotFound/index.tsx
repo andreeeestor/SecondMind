@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import FuzzyText from "../../components/layout/NotFoundTitle";
+import NotFoundTitle from "../../components/layout/NotFoundTitle";
 import { ArrowLeft } from "@phosphor-icons/react";
 
 export default function NotFoundPage() {
@@ -8,7 +8,7 @@ export default function NotFoundPage() {
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-sm text-center">
           <div className="flex justify-center items-center mb-4">
-            <FuzzyText baseIntensity={0.2}>404</FuzzyText>
+            <NotFoundTitle baseIntensity={0.2}>404</NotFoundTitle>
           </div>
           <p className="mb-4 text-3xl tracking-tight font-bold text-gray-900 md:text-4xl">
             Página não encontrada.
